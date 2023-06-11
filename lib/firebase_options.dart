@@ -44,46 +44,39 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCWKJCl_d43CkR-GPdgZuOpqj2jYR9ISwM',
-    appId: '1:394335345045:web:9bea491c390c5dc0037e9c',
-    messagingSenderId: '394335345045',
-    projectId: 'satipasala-org',
-    authDomain: 'satipasala-org.firebaseapp.com',
-    databaseURL: 'https://satipasala-org.firebaseio.com',
-    storageBucket: 'satipasala-org.appspot.com',
-    measurementId: 'G-06M3TC7W10',
+    apiKey: 'AIzaSyDAJU-Vt8BC_GbTkK4DSEiNux36AkslgiM',
+    appId: '1:1004489113608:web:937d7a8e43b90aebe311bd',
+    messagingSenderId: '1004489113608',
+    projectId: 'satipsala-dev',
+    authDomain: 'satipsala-dev.firebaseapp.com',
+    storageBucket: 'satipsala-dev.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBP9IUs2Hwg_7hUYAa3IUJSuvO7bI7ANeA',
-    appId: '1:394335345045:android:5f272efa78b92bd7037e9c',
-    messagingSenderId: '394335345045',
-    projectId: 'satipasala-org',
-    databaseURL: 'https://satipasala-org.firebaseio.com',
-    storageBucket: 'satipasala-org.appspot.com',
+    apiKey: 'AIzaSyDh0fNg_Ctt9AH_uYncCYyBonc_gt-aJGc',
+    appId: '1:1004489113608:android:84ae3d65a2a0d268e311bd',
+    messagingSenderId: '1004489113608',
+    projectId: 'satipsala-dev',
+    storageBucket: 'satipsala-dev.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDCfBAfYqc4GeCjFq-nXqFlVgfV6pz0ZK8',
-    appId: '1:394335345045:ios:6068ca4926ce292e037e9c',
-    messagingSenderId: '394335345045',
-    projectId: 'satipasala-org',
-    databaseURL: 'https://satipasala-org.firebaseio.com',
-    storageBucket: 'satipasala-org.appspot.com',
-    androidClientId: '394335345045-umcukaqi84j007tntsou8qpighqeq23t.apps.googleusercontent.com',
-    iosClientId: '394335345045-c9rq4t9oc5r12u24m59dmstoimrbir15.apps.googleusercontent.com',
+    apiKey: 'AIzaSyDks_xTdii8mk4uTE3b60KP52RlCyLcXWI',
+    appId: '1:1004489113608:ios:3dd6f27b40e562e4e311bd',
+    messagingSenderId: '1004489113608',
+    projectId: 'satipsala-dev',
+    storageBucket: 'satipsala-dev.appspot.com',
+    iosClientId: '1004489113608-tpohk9ge9ctnqdi0hl3cm4dj0q0tcf7e.apps.googleusercontent.com',
     iosBundleId: 'com.example.mobile',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDCfBAfYqc4GeCjFq-nXqFlVgfV6pz0ZK8',
-    appId: '1:394335345045:ios:5e0f0c769d542624037e9c',
-    messagingSenderId: '394335345045',
-    projectId: 'satipasala-org',
-    databaseURL: 'https://satipasala-org.firebaseio.com',
-    storageBucket: 'satipasala-org.appspot.com',
-    androidClientId: '394335345045-umcukaqi84j007tntsou8qpighqeq23t.apps.googleusercontent.com',
-    iosClientId: '394335345045-qgdk3rgcsa09srpuav4knmcv1ucb15tm.apps.googleusercontent.com',
+    apiKey: 'AIzaSyDks_xTdii8mk4uTE3b60KP52RlCyLcXWI',
+    appId: '1:1004489113608:ios:9299784dde8275fde311bd',
+    messagingSenderId: '1004489113608',
+    projectId: 'satipsala-dev',
+    storageBucket: 'satipsala-dev.appspot.com',
+    iosClientId: '1004489113608-bv1nluv1anioos7ig4nrd226tgcngpec.apps.googleusercontent.com',
     iosBundleId: 'com.example.mobile.RunnerTests',
   );
 }

@@ -79,23 +79,32 @@ class _LoginScreenState extends State<LoginScreen> {
                   left: 0,
                   right: 0,
                   child: Container(
-                      margin: const EdgeInsets.all(40.0),
-                      alignment: Alignment.center,
-                      width: MediaQuery.of(context).size.width,
-                      child: Column(children: [
-                        Container(
-                            child: const Text("Welcome",
-                                style: TextStyle(
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.w500,
-                                    color: Color(0xffE6E7F2)))),
-                        if (MediaQuery.of(context).size.height * 0.3 > 240)
-                          Container(
-                              margin: const EdgeInsets.all(20.0), 
-                              child: FittedBox(
-                                  fit: BoxFit.contain,
-                                  child: Image.asset('assets/logo.png')))
-                      ])),
+                    margin: const EdgeInsets.all(40.0),
+                    alignment: Alignment.center,
+                    width: MediaQuery.of(context).size.width,
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min, // Added this line
+                      children: [
+                        const Text("Welcome",
+                            style: TextStyle(
+                                fontSize: 25,
+                                fontWeight: FontWeight.w500,
+                                color: Color(0xffE6E7F2))),
+                        Flexible(
+                          fit: FlexFit.loose,
+                          child: Container(
+                            width: 200, // Added a specific width
+                            height: 200, // Added a specific height
+                            margin: const EdgeInsets.all(20.0),
+                            child: FittedBox(
+                              fit: BoxFit.contain,
+                              child: Image.asset('assets/logo.png'),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                 ),
                 Positioned(
                     bottom: 110.0,
